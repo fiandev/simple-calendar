@@ -1,0 +1,33 @@
+.cell {
+  font-weight: bold;
+}
+.cell-date-previous,
+.cell-date-next
+{
+  background-color: #ABBBC8;
+}
+.cell.holiday {
+background-color: red;
+}
+.calendar {
+  min-height: 45%;
+  max-height: 45%;
+  overflow-y: scroll;
+}
+
+.color-symbol {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.item-legend {
+  height: 30px;
+  display: flex;
+  
+  padding: 15px 0;
+  justify-content: center;
+  flex-direction: row;
+}
+.bd {
+  border: solid 1px red;
+}
